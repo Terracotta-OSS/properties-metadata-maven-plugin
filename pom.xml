@@ -3,7 +3,7 @@
 
   <groupId>org.terracotta.maven.plugins</groupId>
   <artifactId>maven-metadata-properties-plugin</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
   <name>Maven Metadata Properties Plugin</name>
 
@@ -56,8 +56,8 @@
   </build>
 
   <scm>
-    <connection>scm:svn:https://svn.terracotta.org/repo/forge/projects/maven-metadata-properties-plugin/tags/release-1.0.0</connection>
-    <developerConnection>scm:svn:https://svn.terracotta.org/repo/forge/projects/maven-metadata-properties-plugin/tags/release-1.0.0</developerConnection>
+    <connection>scm:svn:https://svn.terracotta.org/repo/forge/projects/maven-metadata-properties-plugin/trunk/</connection>
+    <developerConnection>scm:svn:https://svn.terracotta.org/repo/forge/projects/maven-metadata-properties-plugin/trunk/</developerConnection>
   </scm>
 
     <distributionManagement>
