@@ -1,7 +1,9 @@
 # Properties Metadata Maven Plugin
 This maven plugin allows the user to add metadata to the pom, during release.
 
-Example : provided you launch the maven release plugin through Jenkins (or at least have the environment variables BUILD_URL and SVN_REVISION set), the released pom will have 3 new propoerties added to the properties tag :
+## Example :
+
+Provided you launch the maven release plugin through Jenkins (or at least have the environment variables **BUILD_URL** and **SVN_REVISION** set), the released pom will have 3 new properties added to the properties tag :
 
 ```xml
 <metadata.build.jenkins.url>http://jenkinsmaster.terracotta.lan:9000/job/forge-parent_trunk_releaser/9/</metadata.build.jenkins.url>
