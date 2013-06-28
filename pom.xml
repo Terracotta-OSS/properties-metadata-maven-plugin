@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.terracotta.maven.plugins</groupId>
-  <artifactId>maven-metadata-properties-plugin</artifactId>
+  <artifactId>properties-metadata-maven-plugin</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
-  <name>Maven Metadata Properties Plugin</name>
+  <name>Properties Metadata Maven Plugin</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,7 @@
         <configuration>
           <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
           <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
-          <goalPrefix>metadata-properties</goalPrefix>
+          <goalPrefix>properties-metadata</goalPrefix>
         </configuration>
         <executions>
           <execution>
