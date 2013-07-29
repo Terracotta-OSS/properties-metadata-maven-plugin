@@ -67,12 +67,10 @@
   </build>
 
   <scm>
-    <connection>
-      scm:git:http://github.com/Terracotta-OSS/properties-metadata-maven-plugin.git
-    </connection>
-    <developerConnection>
-      scm:git:ssh://git@github.com:Terracotta-OSS/properties-metadata-maven-plugin.git
-    </developerConnection>
+    <url>https://github.com/Terracotta-OSS/properties-metadata-maven-plugin</url>
+    <tag>HEAD</tag>
+    <connection>scm:git:ssh://git@github.com/Terracotta-OSS/properties-metadata-maven-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Terracotta-OSS/properties-metadata-maven-plugin.git</developerConnection>
   </scm>
 
   <distributionManagement>
